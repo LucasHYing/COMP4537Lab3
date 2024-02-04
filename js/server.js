@@ -1,6 +1,6 @@
 const http = require('http'); // Module for creating HTTP server.
 const url = require('url'); // Module for URL resolution and parsing.
-const utils = require('./modules/utils');
+const utils = require('../modules/utils');
 
 // Create an HTTP server that listens for requests.
 const server = http.createServer((req, res) => {
